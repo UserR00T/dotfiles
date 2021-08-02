@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# Your github username
+export GITHUB_USERNAME=
+# Generate a new token (https://github.com/settings/tokens/new)[here], make sure to select the scope "notifications". No other scopes are required.
+export GITHUB_ACCESS_TOKEN=

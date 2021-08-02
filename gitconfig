@@ -1,0 +1,11 @@
+[user]
+	name = UserR00T
+	email = contact@UserR00T.com
+	signingkey = 5B050D6E583A4DB9D0967C4783FCB6E8866D302C
+[core]
+	autocrlf = input
+	sshCommand = ssh -i /home/userr00t/.ssh/github_rsa
+[commit]
+	gpgsign = true
+[log]
+	date = local

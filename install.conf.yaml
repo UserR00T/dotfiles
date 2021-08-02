@@ -1,0 +1,31 @@
+- clean: ['~']
+
+- link:
+    ~/.profile: profile
+    ~/.bashrc: bashrc
+    ~/.bash_logout: bash_logout
+    ~/.gitconfig: gitconfig
+    ~/.tmux.conf: tmux.conf
+    ~/.zshrc: zshrc
+    ~/.p10k.zsh: p10k.zsh
+
+    ~/.config/flameshot.conf:
+        path: config/flameshot.conf
+        create: true
+    ~/.config/neofetch:
+        path: config/neofetch/
+        create: true
+
+    ~/.config/latte:
+        path: config/latte/
+        create: true
+    ~/.config/polybar:
+        path: config/polybar/
+        create: true
+
+    ~/.local/share/fonts/siji.pcf:
+        path: local/share/fonts/siji.pcf
+        create: true
+    /usr/share/fonts/woff/font-awesome:
+        path: usr/share/fonts/woff/font-awesome/
+        create: true
